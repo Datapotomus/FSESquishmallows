@@ -15,7 +15,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #e5ffe5;
+  /* color: #e5ffe5; */
+  color: aliceblue;
 }
 
   footer {
