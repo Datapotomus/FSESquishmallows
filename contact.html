@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="images/logo-resized.jpg" alt="Logo Image of SquishMallow" width="30" height="30" class="rounded d-inline-block align-text-top">
@@ -39,14 +39,28 @@
       </div>
     </nav>
 
-    <h1>Contact</h1>
-
-
-
+<div class="container mt-3 col-sm-6">
+    <form>
+      <fieldset>
+        <legend><h1>Contact</h1></legend>
+        <div class="mb-3">
+          <label for="InputEmailContact" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="InputEmailContact" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="feedbackText" class="form-label">Let Us Know</label>
+          <textarea class="form-control" id="feedbackText" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+    
 
 </div>
 
-<footer class="bg-light text-dark d-flex justify-content-center">
+<div class="container-fuild mb-80"></div>
+<footer class="bg-light text-dark d-flex justify-content-center fixed-bottom">
   <p><span>&#169;</span>MallowWorld! 2021</p>
 </footer>
 
