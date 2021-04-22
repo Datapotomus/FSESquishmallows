@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@700&display=swap');
+
 .hero {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url(../images/hero.jpeg);
@@ -40,4 +42,13 @@
 
 .bg-mg{
   background-color: #e5ffe5;
+}
+
+.card-footer {
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
+}
+
+.buy-btn {
+  font-family: 'lato', sans-serif;
 }
